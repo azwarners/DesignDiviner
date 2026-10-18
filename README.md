@@ -1,5 +1,18 @@
 # DesignDiviner
 
+## Installation and current capabilities
+
+**Status: architecture and blueprint only.** This repository does not yet provide an implemented `designdiviner` executable or a supported installation procedure. To read the design locally:
+
+```sh
+git clone https://github.com/azwarners/DesignDiviner.git
+cd DesignDiviner
+cat README.md
+```
+
+**Implemented today:** project documentation defining intended boundaries, deliverables, validation criteria, and its proposed relationship with Redless and ConjurePR. **Not yet implemented:** automated repository analysis, Redless invocation, artifact validation, blueprint generation, or an installable CLI. The workflows and outputs described below are proposed behavior, not demonstrated release features.
+
+
 **One architectural question in. One evidence-grounded blueprint and implementation plan out.**
 
 DesignDiviner is a CLI-first architecture orchestrator. It prepares a bounded analysis workspace, delegates repository inspection and architectural reasoning to [Redless](https://github.com/azwarners/Redless), verifies that the resulting artifacts address the requested design problem, and returns a durable blueprint and implementation plan for human or downstream-agent use.
